@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-header header {
+    width: 100vw;
+    height: 12vh;
+
+    display: flex;
+    
+    align-items: center;
+}
+
+.content .content-header header img {
+    padding: 10px 20px;
+
+    width: 120px;
+    height: 50px;
+}
+
+.content .content-header main .content {
+    background-image: url(./imagens/background.png);
+    
+    width: 100vw;
+    min-height: 88vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content .content-header main .content #logo-header {
+    width: 500px;
+}
+
+.content .content-header main .content .text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-header main .content .text-header h2 {
+    color: #f45204;
+
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 45px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    overflow-y: hidden;
+}
+
+.content .content-header main .content .text-header #seta-baixo {
+    width: 80px;
+    height: 80px;
+}
+
+.content .content-main {
+    width: 100vw;
+    height: 45vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-main .text-main {
+    width: 80vw;
+}
+
+.content .content-main h1 {
+    color: #f45204;
+
+    font-size: 3rem;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+.content .content-main p {
+    font-size: 1.2rem;
+
+    margin-top: 10px;
+}
+
+.content .calendario {
+    width: 100vw;
+    height: 70vh;
+
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .calendario .imagem img {
+    width: 200px;
+
+    margin-top: 20px;
+}
+
+.content .calendario .text-calendario p {
+    font-size: 2.5rem;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.content .calendario .text-calendario #txt-1 {
+    color: rgb(29, 29, 73);
+
+    margin-bottom: 10px;
+}
+
+.content .calendario .text-calendario #txt-2 {
+    color: #f45204;
+
+    margin-bottom: 40px;
+}
+
+.content .eventos {
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .eventos .img-evento img {
+    width: 430px;
+}
+
+.content .eventos .text-evento {
+    width: 40vw;
+}
+
+.content .eventos .text-evento h1 {
+    font-size: 2.3rem;
+
+    color: #f45204;
+
+    margin-bottom: 10px;
+}
+
+.content .eventos .text-evento p {
+    font-size: 1.3rem;
+    font-weight: 200;
+
+    color: rgb(29, 29, 29);
+
+    margin-bottom: 10px;
+}
+
+.content .eventos .text-evento p .laranja {
+    color: #f45204;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content .eventos .text-evento p .preto {
+    color: black;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content .eventos .text-evento h2 {
+    font-size: 2.3rem;
+
+    margin:  30px 0;
+}
+
+.content .eventos .text-evento button {
+    width: 200px;
+    height: 50px;
+
+    border-radius: 50px;
+    border: 0px;
+
+    background-color: #f45204;
+    color: white;
+
+    font-size: 1.2rem;
+
+    margin-top: 20px;
+}
+
+.content #evnt-2 {
+    height: 70vh;
+}
+
+.content #evnt-3 {
+    height: 70vh;
+}
+
+.content #evnt-4 {
+    height: 70vh;
+}
+
+.content hr {
+    width: 50vw;
+
+    margin: 20px;
+
+    border: 1px solid rgb(148, 148, 148);
+}
+
+footer .cabecalho img {
+    width: 100vw;
+    height: 19vh;
+
+    margin-top: 20px;
+}
+
+footer .content-footer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f45204;
+
+    margin-top: -10px;
+}
+
+footer .content-footer h2 {
+    font-size: 3rem;
+
+    margin-top: 40px;
+
+    color: white;
+}
+
+footer .content-footer .imagens {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+}
+
+footer .content-footer .imagens .fotos {
+    width: 320px;
+    height: 700px;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .content-footer .imagens img {
+    width: 250px;
+
+    margin: 60px 40px 0 40px;
+}
+
+footer .content-footer .imagens h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+
+    
+}
+
+footer .content-footer .imagens p {
+    max-width: 180px;
+
+    margin-top: 20px;
+
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+
+    color: white;
+}
+
+footer .content-footer .imagens p span {
+    font-weight: bold;
+}
+
+.social .content-social {
+    background-color: #004;
+
+    width: 100vw;
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.social .content-social .icons {
+    width: 95vw;
+    height: 25vh;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .content-social .icons .logo img{
+    width: 80px;
+}
+
+.social .content-social .icons .media-social {
+    width: 15vw;
+    
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.social .content-social .icons .media-social .logo-social img {
+    width: 30px;
+}
+
+.social .content-social .text-footer p {
+    width: 95vw;
+    
+    font-size: .6rem;
+    text-align: justify;
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.social .content-social .text-footer p span {
+    color: #f45204;
+}
+
+
+
