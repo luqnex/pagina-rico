@@ -1,1 +1,1 @@
-# pagina-rico
+# Pagina apenas para estudos de HTML/CSS
