@@ -1,0 +1,160 @@
+@media (max-width: 425px) {
+    .content .content-header header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content .content-header header img {
+        width: 50px;
+    }
+
+    /* main */
+    .content .content-header main .content #logo-header {
+        width: 90vw;
+    }
+
+    .content .content-header main .content .text-header h2{ 
+        font-size: 1.3rem;
+    }
+
+    .content .content-header main .content .text-header #seta-baixo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content .content-main .text-main h1 {
+        font-size: 1.3rem;
+    }
+
+    .content .content-main .text-main p {
+        font-size: .8rem;
+    }
+
+    /* Calendario */
+
+    .content .calendario .imagem img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content .calendario .text-calendario p {
+        font-size: 1.2rem;
+    }
+
+    /* Eventos */
+
+    .content .eventos {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        height: 100vh;
+    }
+
+    .content .eventos .img-evento img {
+        width: 40vw;
+
+        margin: 10px;
+    }
+
+    .content .eventos .text-evento {
+        width: 80vw;
+    }
+
+    .content .eventos .text-evento h1 {
+        font-size: 1rem;
+    }
+
+    .content .eventos .text-evento p {
+        font-size: .8rem;   
+    }
+
+    .content .eventos .text-evento h2 {
+        font-size: 1.2rem;
+
+        margin: 20px;
+    }
+
+    .content .eventos .text-evento p .laranja {
+        font-size: .8rem;
+    }
+
+    .content .eventos .text-evento p .preto {
+        font-size: .8rem;
+    }
+
+    .content .eventos .text-evento button {
+        width: 120px;
+        height: 35px;
+
+        font-size: .7rem;
+    }
+
+    .content #evnt-2 {
+        height: 80vh;
+    }
+
+    .content #evnt-3 {
+        height: 80vh;
+    }
+
+    .content #evnt-4 {
+        height: 85vh;
+
+        
+    }
+
+    footer .cabecalho img {
+        width: 300vw;
+        height: 12vh;
+    }
+
+    footer .content-footer h2 {
+        font-size: 1.3rem;
+    }
+
+    footer .content-footer .imagens {
+        flex-direction: column;
+    }
+
+    footer .content-footer .imagens img {
+        width: 200px;
+    }
+
+    footer .content-footer .imagens .fotos {
+        height: 500px;
+    }
+
+    footer .content-footer .imagens #ze-goes {
+        height: 550px;
+    }
+
+    footer .content-footer .imagens h2 {
+        font-size: 1.2rem;
+    }
+
+    footer .content-footer .imagens p {
+        font-size: .7rem;
+    }
+
+    /* Social */
+    
+    .social .content-social .icons .logo img{
+        width: 50px;
+    }
+
+    .social .content-social .icons .media-social {
+        width: 30vw;
+    }
+
+    .social .content-social .icons .media-social .logo-social img {
+        width: 20px;
+    }
+
+    .social .content-social .text-footer p {
+        font-size: .5rem;
+    }
+}
