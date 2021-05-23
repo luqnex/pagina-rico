@@ -311,14 +311,9 @@ footer .content-footer .imagens p span {
 
 .social .content-social {
     background-color: #004;
-
     width: 100vw;
-
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
 }
@@ -352,7 +347,7 @@ footer .content-footer .imagens p span {
 .social .content-social .text-footer p {
     width: 95vw;
     
-    font-size: .6rem;
+    font-size: .8rem;
     text-align: justify;
 
     color: white;
